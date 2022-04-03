@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>小博个人主页</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="http://q2.qlogo.cn/headimg_dl?dst_uin=786788651&spec=100" alt="" /></span>
+							<h1>小博</h1>
+							<p>人的理想志向往往和他的能力成正比</p>
+						</header>
+						
+						<footer>
+							<ul class="icons">
+							    <li><a href="http://user.qzone.qq.com/786788651/infocenter?ptsig=eporYR8FfYphGhw2UN4hU5-hidqwEmMO5SzRDKZP3Jg_">首页</a></li>
+							    <li><a href="tencent://message/?uin=786788651" target="_blank" class="fa-qq">扣扣</a></li>
+							    <li><a href="http://weibo.com/5609513865" target="_blank" class="fa-weibo">微博</a></li>
+								<!---QQ图标代码为："fa-qq" 替换上方即可--->
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; 小博＇s <a href="http://xiaobo.52bz.cn">Blog</a></li>
+							<li>来自: <a href="http://www.aeink.com">小博博客</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>
+
+<script> 
+alert("欢迎您访问小博主页"); 
+ </script>
+
+<div class="dandelion">
+  <span class="smalldan"></span>
+  <span class="bigdan"></span>
+</div>
+<style type="text/css">
+@media screen and (max-width:600px){
+.dandelion{display: none !important;}
+}
+ .dandelion .smalldan {
+width: 36px;
+height: 60px;
+left: 88px;   
+background-position: 0 -90px;
+border: 0px solid red;
+}
+.dandelion span {
+-webkit-animation: ball-x 3s linear 2s infinite;
+ -moz-animation: ball-x 3s linear 2s infinite;
+ animation: ball-x 3s linear 2s infinite;
+-webkit-transform-origin: bottom center;
+ -moz-transform-origin: bottom center;
+ transform-origin: bottom center;
+}
+.dandelion span {
+display: block;
+position: fixed;
+z-index:9999999999;
+bottom: 0px;
+background-image: url(http://cdn.txiaohe.cn/images/pugongying.png);
+background-repeat: no-repeat;
+_background: none;
+}
+.dandelion .bigdan {
+width: 64px;
+height: 115px;
+left: 41px;
+background-position: -86px -36px;
+border: 0px solid red;
+}
+@keyframes ball-x {
+ 0% { transform:rotate(0deg);}
+ 25% { transform:rotate(5deg); }
+ 50% { transform:rotate(0deg);}
+ 75% { transform:rotate(-5deg);}
+ 100% { transform:rotate(0deg);}  
+}
+@-webkit-keyframes ball-x {
+ 0% { -webkit-transform:rotate(0deg);}
+ 25% { -webkit-transform:rotate(5deg); }
+ 50% { -webkit-transform:rotate(0deg);}
+ 75% { -webkit-transform:rotate(-5deg);}
+ 100% { -webkit-transform:rotate(0deg);}
+}
+@-moz-keyframes ball-x {
+ 0% { -moz-transform:rotate(0deg);}
+ 25% { -moz-transform:rotate(5deg); }
+ 50% { -moz-transform:rotate(0deg);}
+ 75% { -moz-transform:rotate(-5deg);}
+ 100% { -moz-transform:rotate(0deg);}
+}
+</style>
