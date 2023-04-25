@@ -12,10 +12,10 @@
   <meta name="description" content="" />
 
   
-  <link type="text/css" rel="stylesheet" href="https://Orange-es.github.io/css/print.css" media="print">
-  <link type="text/css" rel="stylesheet" href="https://Orange-es.github.io/css/poole.css">
-  <link type="text/css" rel="stylesheet" href="https://Orange-es.github.io/css/syntax.css">
-  <link type="text/css" rel="stylesheet" href="https://Orange-es.github.io/css/hyde.css">
+  <link type="text/css" rel="stylesheet" href="https://orange-es.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://orange-es.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://orange-es.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://orange-es.github.io/css/hyde.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
 
 
@@ -24,7 +24,7 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="https://Orange-es.github.io/index.xml" rel="alternate" type="application/rss+xml" title="JingBW`  Blog" />
+  <link href="https://orange-es.github.io/index.xml" rel="alternate" type="application/rss+xml" title="JingBW`  Blog" />
   
 </head>
 
@@ -32,7 +32,7 @@
   <aside class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="https://Orange-es.github.io/"><h1>JingBW`  Blog</h1></a>
+      <a href="https://orange-es.github.io/"><h1>JingBW`  Blog</h1></a>
       <p class="lead">
       An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
       </p>
@@ -40,7 +40,7 @@
 
     <nav>
       <ul class="sidebar-nav">
-        <li><a href="https://Orange-es.github.io/">Home</a> </li>
+        <li><a href="https://orange-es.github.io/">Home</a> </li>
         
       </ul>
     </nav>
@@ -53,7 +53,7 @@
     <div class="posts">
 <article class="post">
   <h1 class="post-title">
-    <a href="https://Orange-es.github.io/post/luoyang_longmenplay/">LuoYang_LongMenPlay</a>
+    <a href="https://orange-es.github.io/post/luoyang_longmenplay/">LuoYang_LongMenPlay</a>
   </h1>
   <time datetime="2023-04-24T22:36:35&#43;0800" class="post-date">Mon, Apr 24, 2023</time>
   洛阳龙门游记 日期：2021年12月24日
@@ -62,11 +62,31 @@ Img:
   
 </article><article class="post">
   <h1 class="post-title">
-    <a href="https://Orange-es.github.io/post/first/">First</a>
+    <a href="https://orange-es.github.io/post/first/">First</a>
   </h1>
   <time datetime="2023-04-24T21:07:01&#43;0800" class="post-date">Mon, Apr 24, 2023</time>
   Hello World!
 JingBW
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://orange-es.github.io/post/learn_hugo_one/"></a>
+  </h1>
+  <time datetime="0001-01-01T00:00:00Z" class="post-date">Mon, Jan 1, 0001</time>
+  title: &ldquo;Learn_Hugo_one&rdquo; date: 2023-04-25T23:40:31+08:00 draft: flase
+创建文章demo 创建第一篇文章，放到 post 目录，方便之后生成聚合页面。(draft要改为flase，默认为true，为草稿文件)
+$ hugo new post/first.md 运行Hugo 在你的站点根目录执行 Hugo 命令进行调试：
+$ hugo server --theme=hyde --buildDrafts 假设你需要部署在 GitHub Pages 上，首先在GitHub上创建一个Repository，命名为：coderzh.github.io （coderzh替换为你的github用户名）。
+在站点根目录执行 Hugo 命令生成最终页面：
+$ hugo --theme=hyde --baseUrl=&#34;https://orange-es.github.io/&#34; （注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。）
+如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。
+(注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。）
+如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。
+$ cd public $ git init $ git remote add origin https://github.com/coderzh/coderzh.github.io.git $ git add -A $ git commit -m &#34;first commit&#34; $ git push -u origin master 教程连接：https://www.
+  
+  <div class="read-more-link">
+    <a href="/post/learn_hugo_one/">Read More…</a>
+  </div>
   
 </article>
 </div>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JingBW`  Blog</title>
-    <link>https://Orange-es.github.io/</link>
+    <link>https://orange-es.github.io/</link>
     <description>Recent content on JingBW`  Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ch-chain</language>
-    <lastBuildDate>Mon, 24 Apr 2023 22:36:35 +0800</lastBuildDate><atom:link href="https://Orange-es.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Apr 2023 22:36:35 +0800</lastBuildDate><atom:link href="https://orange-es.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LuoYang_LongMenPlay</title>
-      <link>https://Orange-es.github.io/post/luoyang_longmenplay/</link>
+      <link>https://orange-es.github.io/post/luoyang_longmenplay/</link>
       <pubDate>Mon, 24 Apr 2023 22:36:35 +0800</pubDate>
       
-      <guid>https://Orange-es.github.io/post/luoyang_longmenplay/</guid>
+      <guid>https://orange-es.github.io/post/luoyang_longmenplay/</guid>
       <description>洛阳龙门游记 日期：2021年12月24日
 人员：洛阳室友
 Img: </description>
@@ -20,12 +20,30 @@ Img: </description>
     
     <item>
       <title>First</title>
-      <link>https://Orange-es.github.io/post/first/</link>
+      <link>https://orange-es.github.io/post/first/</link>
       <pubDate>Mon, 24 Apr 2023 21:07:01 +0800</pubDate>
       
-      <guid>https://Orange-es.github.io/post/first/</guid>
+      <guid>https://orange-es.github.io/post/first/</guid>
       <description>Hello World!
 JingBW</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://orange-es.github.io/post/learn_hugo_one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://orange-es.github.io/post/learn_hugo_one/</guid>
+      <description>title: &amp;ldquo;Learn_Hugo_one&amp;rdquo; date: 2023-04-25T23:40:31+08:00 draft: flase
+创建文章demo 创建第一篇文章，放到 post 目录，方便之后生成聚合页面。(draft要改为flase，默认为true，为草稿文件)
+$ hugo new post/first.md 运行Hugo 在你的站点根目录执行 Hugo 命令进行调试：
+$ hugo server --theme=hyde --buildDrafts 假设你需要部署在 GitHub Pages 上，首先在GitHub上创建一个Repository，命名为：coderzh.github.io （coderzh替换为你的github用户名）。
+在站点根目录执行 Hugo 命令生成最终页面：
+$ hugo --theme=hyde --baseUrl=&amp;#34;https://orange-es.github.io/&amp;#34; （注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。）
+如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。
+(注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。）
+如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。
+$ cd public $ git init $ git remote add origin https://github.com/coderzh/coderzh.github.io.git $ git add -A $ git commit -m &amp;#34;first commit&amp;#34; $ git push -u origin master 教程连接：https://www.</description>
     </item>
     
   </channel>
