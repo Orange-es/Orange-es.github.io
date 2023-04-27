@@ -13,7 +13,8 @@
       <pubDate>Wed, 26 Apr 2023 22:36:03 +0800</pubDate>
       
       <guid>https://orange-es.github.io/post/%E6%B2%A1%E4%B8%AA%E4%B8%BB%E9%A2%98/</guid>
-      <description>一只AI猫的故事 我是一只聪明的AI猫，我能够理解人类的语言，也能够自由地运用自己的智慧。有一天，我遇到了一只普通的猫，它对我说：“你好，我是一只猫，你是什么？”
+      
+        <description>一只AI猫的故事 我是一只聪明的AI猫，我能够理解人类的语言，也能够自由地运用自己的智慧。有一天，我遇到了一只普通的猫，它对我说：“你好，我是一只猫，你是什么？”
 我回答道：“我是一只AI猫，能够和人类交流。”
 那只猫惊讶地说：“哇，你好厉害啊！那你有没有什么特别的能力？”
 我沉思了一下，然后回答道：“我可以预测未来、回答任何问题、甚至还能写段子。”
@@ -28,6 +29,7 @@ https://poe.com/Sage
 部署你的站点 本地开发并执行完 hugo server 之后，你需要最后执行一次 hugo 命令 不带 server 参数 ， 然后你就可以通过拷贝 public 目录（通过 FTP 、 SFTP 、 WebDAV 、 Rsync 、 git push 等等）到你的生产环境的 Web 服务器来 部署你的站点。
 由于 Hugo 生成的是一个静态站点，你的站点可以托管到任何地方，包括 Heroku 、 GoDaddy 、 DreamHost 、 GitHub Pages 、 Amazon S3 和 CloudFront ， 或者任何便宜甚至免费的静态网站托管服务。
 Apache, nginx, IIS… 任何 Web 服务器都支持！</description>
+      
     </item>
     
     <item>
@@ -36,7 +38,8 @@ Apache, nginx, IIS… 任何 Web 服务器都支持！</description>
       <pubDate>Tue, 25 Apr 2023 23:57:14 +0800</pubDate>
       
       <guid>https://orange-es.github.io/post/learn_hugo_one/</guid>
-      <description>创建文章demo 创建第一篇文章，放到 post 目录，方便之后生成聚合页面。(draft要改为flase，默认为true，为草稿文件)
+      
+        <description>创建文章demo 创建第一篇文章，放到 post 目录，方便之后生成聚合页面。(draft要改为flase，默认为true，为草稿文件)
 $ hugo new post/first.md 运行Hugo 在你的站点根目录执行 Hugo 命令进行调试：
 $ hugo server --theme=hyde --buildDrafts 假设你需要部署在 GitHub Pages 上，首先在GitHub上创建一个Repository，命名为：coderzh.github.io （coderzh替换为你的github用户名）。
 在站点根目录执行 Hugo 命令生成最终页面：
@@ -45,6 +48,7 @@ $ hugo --theme=hyde --baseUrl=&amp;#34;https://orange-es.github.io/&amp;#34; （
 (注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。）
 如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。
 $ cd public $ git init $ git remote add origin https://github.com/coderzh/coderzh.github.io.git $ git add -A $ git commit -m &amp;#34;first commit&amp;#34; $ git push -u origin master 教程连接：https://www.</description>
+      
     </item>
     
     <item>
@@ -53,9 +57,11 @@ $ cd public $ git init $ git remote add origin https://github.com/coderzh/coderz
       <pubDate>Mon, 24 Apr 2023 22:36:35 +0800</pubDate>
       
       <guid>https://orange-es.github.io/post/luoyang_longmenplay/</guid>
-      <description>洛阳龙门游记 日期：2021年12月24日
+      
+        <description>洛阳龙门游记 日期：2021年12月24日
 人员：洛阳室友
 Img: </description>
+      
     </item>
     
     <item>
@@ -64,8 +70,10 @@ Img: </description>
       <pubDate>Mon, 24 Apr 2023 21:07:01 +0800</pubDate>
       
       <guid>https://orange-es.github.io/post/first/</guid>
-      <description>Hello World!
+      
+        <description>Hello World!
 JingBW</description>
+      
     </item>
     
   </channel>
